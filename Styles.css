@@ -35,14 +35,17 @@
     }
     #bio1{
         color: white;
-        font-size: 150%;
+        font-size: 150%; 
+        border: 5px solid lime;
+        background-color: black;
+        margin: 0 32px;
         } 
     #bottom-links{
       background-color: black;  
       text-align: center;
-      font-size: 125%; 
+      font-size: 100%; 
       height: 50px;
-      padding-top: 20px;
+      padding-top: 20px; 
     }
 
     a:link{
@@ -55,6 +58,10 @@
       color: lime
     }
     a:active {
+      color: black
+    } 
+    .main-menu:hover, .main-menu:focus {
+      background-color: lime;
       color: black
     }
 
@@ -76,8 +83,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .lead3 { 
 color: lime;
 font-size: 200%;
+letter-spacing: 1px;
 text-shadow: 1px 1px white;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Rog Fonts', 'Arial Narrow', Arial, sans-serif;
 }
 .lead4{
     color: white;
@@ -88,13 +96,13 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .lead5{
     color: lime;
-    background-color: black;
+    
     margin: auto;
     text-align: left;
+    padding: 12px;
     width: 80%;
     max-width: 650px; 
-    word-spacing: 3px;
-    border: 5px solid white;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -109,8 +117,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .dropbtn {
   background-color: black;
   color: lime;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Rog Fonts', 'Arial Narrow', Arial, sans-serif;;
   border: none;
   cursor: pointer;
 }
@@ -162,6 +171,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 15px;
     margin: 0 auto;
   }
+
   
 }
 
@@ -172,5 +182,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-shadow: 1.5px 1.5px lime;
   word-spacing: 200px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+#bottom-links {
+  font-size: 125%;
 }
 }
