@@ -3,7 +3,7 @@
   max-width: 640px;
   border: 2px solid black;
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
   #main-menu {
     background-image: url(photos/ActualOnesAndZeroes.jpg);
@@ -16,23 +16,24 @@
       background-color: black;
       color: lime; 
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      padding: 14px 25px;
+      padding: 5px 8px; 
+      font-size: 80%;
       text-align: center;
       text-decoration: none;
-      display: inline-block; 
+      display: flex; 
       margin: 0;
     }
     
     a:hover, a:active {
       background-color: lime;
       color: black; 
-      padding-bottom: 40px;
+      font-size: 100%;
+      padding-bottom: 20px;
     }
   }    
     #images{
      width: 33.33%;
-     padding-left: 75%;
-    
+     padding-left: 60%;
      
 
     }
@@ -43,10 +44,11 @@
     }
         
     #logo{
-      width: 15%;
-      height: 15%; 
-      display: block; 
-      margin-bottom: 0;
+      width: 10%;
+      height: 10%; 
+      display: inline-block; 
+      padding-right: 5%;
+      margin-bottom: 0; 
     }
 
     #Javascript-example{
@@ -56,6 +58,16 @@
         
         
     }
+    #google-sites-example {
+      width: 90%; 
+      height: 90%;
+      border: 3px solid lime;
+    } 
+
+    #html{
+      display: flex;
+    }
+
     #bio1{
         color: white;
         font-size: 150%; 
@@ -97,6 +109,7 @@ text-shadow: 1px 1px white;
 background-color: lime;
 border: 2px solid white; 
 margin-top: 0px; 
+margin-bottom: 0px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 } 
@@ -114,8 +127,9 @@ font-family: 'Rog Fonts', 'Arial Narrow', Arial, sans-serif;
     background-color: lime; 
     border: white;
     font-size: 150%;
-    text-shadow: 1.5px 1.5px lime;
-    word-spacing: 100px;
+    text-shadow: 1.5px 1.5px white;
+    width: 50%; 
+    display: flexbox;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .lead5{
@@ -128,11 +142,25 @@ font-family: 'Rog Fonts', 'Arial Narrow', Arial, sans-serif;
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.lead6 {
+  color: white; 
+  text-shadow: 1px 1px lime; 
+  width: 50%; 
+}
+
+.fa-copyright{
+  color: white; 
+  background-color: black; 
+  font-size: 115%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } 
 
 .fa-regular-fa-copyright{
 color: white; 
 background-color: black; 
-
 font-size: 75%;
 width: 80%;
 margin: auto;
@@ -155,14 +183,25 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media only screen and (min-width: 850px) {
-.lead4{
-  color: white;
-  font-size: 250%;
-  text-shadow: 1.5px 1.5px lime;
-  word-spacing: 200px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}  
-
+#top-menu {
+  a:link, a:visited {
+    background-color: black;
+    color: lime; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 14px 25px;
+    text-align: center; 
+    font-size: 110%;
+    text-decoration: none;
+    display: flex; 
+    margin: 0;
+  }
+  a:hover, a:active {
+    background-color: lime;
+    color: black; 
+    padding-bottom: 40px; 
+    font-size: 150%;
+  }
+}
 
 #bottom-links {
   font-size: 125%;
