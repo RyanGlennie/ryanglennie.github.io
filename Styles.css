@@ -32,8 +32,8 @@
     }
   }    
     #images{
-     width: 33.33%;
-     padding-left: 60%;
+     width: 50%;
+     padding-left: 27%;
      
 
     }
@@ -128,7 +128,6 @@ font-family: 'Rog Fonts', 'Arial Narrow', Arial, sans-serif;
     border: white;
     font-size: 150%;
     text-shadow: 1.5px 1.5px white;
-    width: 50%; 
     display: flexbox;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -145,7 +144,6 @@ font-family: 'Rog Fonts', 'Arial Narrow', Arial, sans-serif;
 .lead6 {
   color: white; 
   text-shadow: 1px 1px lime; 
-  width: 50%; 
 }
 
 .fa-copyright{
@@ -203,7 +201,23 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 }
 
-#bottom-links {
-  font-size: 125%;
+.lead4{
+  color: black;
+  background-color: lime; 
+  border: white;
+  font-size: 150%;
+  text-shadow: 1.5px 1.5px white;
+  width: 50%; 
+  display: flexbox;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+#images{
+  width: 33.33%;
+  padding-left: 60%;
+}
+.lead6 {
+  color: white; 
+  text-shadow: 1px 1px lime; 
+  width: 50%; 
 }
 }
